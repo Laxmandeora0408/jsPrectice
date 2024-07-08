@@ -41,9 +41,15 @@ let name = 'laxman'
  console.log(typeof(stringNumber));//boolean
  */
 
+/*
 let name;
 let nameV = String(name);
 console.log(nameV);
 console.log(typeOf(nameV)); // not defined
+*/
+
+let name = undefined;
+let useName = Number(name);
+console.log(name);// undefined
 
 
